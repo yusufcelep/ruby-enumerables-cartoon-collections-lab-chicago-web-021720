@@ -17,18 +17,7 @@ def long_planeteer_calls(calls_long)
   end
 end
 
-<<<<<<< HEAD
 def find_the_cheese(array)
   array.find do |cheese|
     cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
   end
-=======
-def find_the_cheese(contains_cheddar)
-  find_the_cheese.find do |cheese|
-    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
-  else 
-    puts nil
-  end
-  find_the_cheese
->>>>>>> 16a811c904e89cacf4601b345bfbde79e3795902
-end
